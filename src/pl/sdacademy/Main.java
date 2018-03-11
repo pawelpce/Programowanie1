@@ -26,29 +26,28 @@ public class Main {
 
         System.out.println();
 
-            for (int x = 0; x < 6; x++) {
-                for (int y = 0; y < 6; y++) {
-                    if (x > 0 && x < 5 && y > 0 && y < 5) {
-                        System.out.print(" ");
-                    } else {
-                        System.out.print("*");
-                    }
-                }
-                System.out.println();
-            }
-
-        System.out.println();
-
-       /* znak x  for (int x = 0; x < 6; x++) {
+        for (int x = 0; x < 6; x++) {
             for (int y = 0; y < 6; y++) {
-                if (x==y || ) {
+                if (x > 0 && x < 5 && y > 0 && y < 5) {
                     System.out.print(" ");
                 } else {
                     System.out.print("*");
                 }
             }
             System.out.println();
-        } */
+        }
 
+        System.out.println();
+
+        for (int x = 0; x < 6; x++) {
+            for (int y = 0; y < 6; y++) {
+                if (x == y || (5-x) == y) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
         }
     }
+}

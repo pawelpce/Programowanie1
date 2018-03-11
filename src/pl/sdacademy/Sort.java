@@ -4,7 +4,7 @@ public class Sort {
 
     public static void main(String[] args) {
 
-        int[] tablica = {5,4,2,9,2,4,7};
+        int[] tablica = {5, 4, 2, 9, 2, 4, 7};
 
 
     }
@@ -12,3 +12,4 @@ public class Sort {
     private static void bubbleSort(int[] tablica) {
 
     }
+}

@@ -11,7 +11,7 @@ public class Roulette {
 
         int gamePrize;
         if (playerNumber == gameNumber) {
-            gamePrize = 2 * playerBid;
+            gamePrize = 3 * playerBid;
             System.out.println("Brawo! Liczba " + playerNumber + " jest poprawna! Wygrałeś " + gamePrize + " złotych.");
         } else {
             gamePrize = -playerBid;
